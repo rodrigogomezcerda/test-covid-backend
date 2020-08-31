@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/rodrigogomezcerda/test-covid-backend/issues"
   },
-  "homepage": "https://github.com/rodrigogomezcerda/test-covid-backend#readme"
+  "homepage": "https://github.com/rodrigogomezcerda/test-covid-backend#readme",
+  "dependencies": {
+    "apollo-server": "^2.14.3",
+    "graphql": "^15.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.1.0",
+    "nodemon": "^2.0.4"
+  }
 }
