@@ -4,12 +4,12 @@ const listCountries = async () => {
   const connection = await conexion();
   try {
     const [rows] = await connection.execute(
-      ` SELECT idCountry, name FROM country`,
+      ` SELECT idCountry, name, flag FROM country`,
     );
-    const arrayCountry = rows.map(({ idCountry, name }) => {
+    const arrayCountry = rows.map((data) => {
       return {
-        id: idCountry,
-        name,
+        ...data,
+        id: data.idCountry,
       };
     });
 
