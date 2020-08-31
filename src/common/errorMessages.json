@@ -1,0 +1,33 @@
+{
+  "message": {
+    "fieldValidate": {
+      "rut": {
+        "patternValidate": "Rut ingresado no válido"
+      },
+      "email": {
+        "patternValidate": "Email incorrecto"
+      },
+      "date": {
+        "patternValidate": "Fecha incorrecta"
+      }
+    },
+    "authValidate": {
+      "isAuhthenticated": "Usuario no autenticado",
+      "isAceptedPolicy": "Debe aceptar las políticas",
+      "isUserExistAlready": "Usuario ya registrado",
+      "isUserNotExist": "Usuario no existe",
+      "isPasswordIncorrect": "Contraseña incorrecta"
+    },
+    "fileValidate":{
+      "maxSize": "El archivo cargado es demasiado grande",
+      "extensionFile": "Formato de archivo no permitido"
+    },
+    "commonValidate": {
+      "onlyNumber": "Campo permite solamente números",
+      "onlyNumberFloat": "Campo permite solamente números enteros o decimales",
+      "lengthCharacters": "Campo está fuera del rango de los caracteres permitidos",
+      "existAlready": "Registro ya existe",
+      "NoteExist": "Registro no existe"
+    }
+  }
+}
