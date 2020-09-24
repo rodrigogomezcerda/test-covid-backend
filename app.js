@@ -5,6 +5,8 @@ const resolvers = require('./src/graphql/resolvers/resolvers');
 const server = new ApolloServer({
   typeDefs,
   resolvers,
+  playground: true,
+  introspection: true,
   formatError: (err) => {
     /* if (err.originalError instanceof AuthenticationError) {
     }
