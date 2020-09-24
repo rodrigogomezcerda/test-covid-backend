@@ -1,0 +1,24 @@
+{
+  "apps": [
+    {
+      "name": "test-covid-backend",
+      "script": "./app.js",
+      "env": {
+        "NODE_ENV": "development",
+        "MYSQL_USER": "root",
+        "MYSQL_PASSWORD": "",
+        "MYSQL_DB": "test-covid",
+        "PORT": "4000",
+        "HOST": "localhost"
+      },
+      "env_production": {
+        "NODE_ENV": "production",
+        "MYSQL_USER": "root",
+        "MYSQL_PASSWORD": "8r6@9X#CleV8b",
+        "MYSQL_DB": "test-covid",
+        "PORT": "4000",
+        "HOST": "localhost"
+      }
+    }
+  ]
+}

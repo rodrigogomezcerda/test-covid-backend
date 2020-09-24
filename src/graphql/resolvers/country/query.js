@@ -4,7 +4,7 @@ const listCountries = async () => {
   const connection = await conexion();
   try {
     const [rows] = await connection.execute(
-      ` SELECT idCountry, name, flag FROM country`,
+      ` SELECT id_country, name, flag FROM country`,
     );
     const arrayCountry = rows.map((data) => {
       return {

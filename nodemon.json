@@ -4,8 +4,6 @@
     "MYSQL_PASSWORD": "",
     "MYSQL_DB": "test-covid",
     "PORT": "4000",
-    "HOST": "localhost",
-    "URL": "http://localhost:4000",
-    "URL_FILE": "http://localhost:4000/public"
+    "HOST": "localhost"
   }
 }
