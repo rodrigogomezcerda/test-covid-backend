@@ -9,7 +9,7 @@ const listCountries = async () => {
     const arrayCountry = rows.map((data) => {
       return {
         ...data,
-        id: data.idCountry,
+        id: data.id_country,
       };
     });
 
