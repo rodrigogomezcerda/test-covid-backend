@@ -20,6 +20,8 @@
   "homepage": "https://github.com/rodrigogomezcerda/test-covid-backend#readme",
   "dependencies": {
     "apollo-server": "^2.14.3",
+    "apollo-server-express": "^2.18.1",
+    "express": "^4.17.1",
     "graphql": "^15.1.0",
     "jsonwebtoken": "^8.5.1",
     "mysql": "^2.18.1",

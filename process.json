@@ -9,15 +9,15 @@
         "MYSQL_PASSWORD": "",
         "MYSQL_DB": "test-covid",
         "PORT": "4000",
-        "HOST": "localhost"
+        "HOST": "http://localhost"
       },
       "env_production": {
         "NODE_ENV": "production",
         "MYSQL_USER": "root",
         "MYSQL_PASSWORD": "8r6@9X#CleV8",
         "MYSQL_DB": "test-covid",
-        "PORT": "4000",
-        "HOST": "localhost"
+        "PORT": "443",
+        "HOST": "https://localhost"
       }
     }
   ]
