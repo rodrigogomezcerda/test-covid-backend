@@ -8,7 +8,7 @@ const http = require('http');
 
 const configurations = {
   // Note: You may need sudo to run on port 443
-  production: { ssl: true, port: 443, hostname: 'wemrchile.com' },
+  production: { ssl: true, port: 444, hostname: 'wemrchile.com' },
   development: { ssl: false, port: 4000, hostname: 'localhost' },
 };
 

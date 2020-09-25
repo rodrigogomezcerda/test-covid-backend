@@ -16,7 +16,7 @@
         "MYSQL_USER": "root",
         "MYSQL_PASSWORD": "8r6@9X#CleV8",
         "MYSQL_DB": "test-covid",
-        "PORT": "443",
+        "PORT": "444",
         "HOST": "https://localhost"
       }
     }
