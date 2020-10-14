@@ -1,9 +1,0 @@
-{
-  "env": {
-    "MYSQL_USER": "root",
-    "MYSQL_PASSWORD": "",
-    "MYSQL_DB": "test-covid",
-    "PORT": "4000",
-    "HOST": "localhost"
-  }
-}
