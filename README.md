@@ -18,6 +18,7 @@ This test project uses a number of open source library to work properly:
 
 ### Installation
 
+- create database
 - create nodemon.json file and add environment variables:
 
 ```sh
